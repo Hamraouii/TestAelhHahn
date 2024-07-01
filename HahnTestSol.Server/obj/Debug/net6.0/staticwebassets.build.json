@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "GE+jBIPFBHd9JPB30oXyD5E8WIY9oRa3q2cypeMfPWA=",
+  "Source": "HahnTestSol.Server",
+  "BasePath": "_content/HahnTestSol.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\aelhamraoui\\Desktop\\testAelhP\\HahnTestSol\\hahntestsol.client\\hahntestsol.client.esproj",
+      "Version": 2,
+      "Source": "hahntestsol.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
