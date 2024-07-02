@@ -1,3 +1,6 @@
+using HahnTestSol.Server.Services;
+using HahnTestSol.Server.Services.Legacy;
+using HahnTestSol.Server.Utilities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -34,6 +37,24 @@ namespace HahnTestSol.Server
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            // Register AuthService
+            builder.Services.AddHttpClient<LegacyAuthService>();
+
+            // Register AuthenticatedHttpClientHandler with a factory method
+            builder.Services.AddTransient<AuthenticatedHttpClientHandler>(provider =>
+            {
+                var authService = provider.GetRequiredService<LegacyAuthService>();
+                var username = "your-username"; // Replace with actual username
+                return new AuthenticatedHttpClientHandler(authService, username);
+            });
+
+            // Register HttpClient with AuthenticatedHttpClientHandler
+            builder.Services.AddHttpClient("AuthenticatedClient")
+                .AddHttpMessageHandler<AuthenticatedHttpClientHandler>();
+
+            // Register CargoService
+            builder.Services.AddTransient<CargoService>();
 
             var app = builder.Build();
 

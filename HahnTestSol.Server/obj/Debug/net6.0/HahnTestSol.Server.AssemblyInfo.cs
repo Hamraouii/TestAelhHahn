@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HahnTestSol.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+851a57949758f18426d3ebfa5252a93641757607")]
 [assembly: System.Reflection.AssemblyProductAttribute("HahnTestSol.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HahnTestSol.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -46,3 +46,4 @@ C:\Users\aelhamraoui\Desktop\testAelhP\HahnTestSol\HahnTestSol.Server\bin\Debug\
 C:\Users\aelhamraoui\Desktop\testAelhP\HahnTestSol\HahnTestSol.Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\aelhamraoui\Desktop\testAelhP\HahnTestSol\HahnTestSol.Server\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\aelhamraoui\Desktop\testAelhP\HahnTestSol\HahnTestSol.Server\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\aelhamraoui\Desktop\testAelhP\HahnTestSol\HahnTestSol.Server\obj\Debug\net6.0\HahnTestSol.Server.sourcelink.json
